@@ -3,4 +3,5 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - run: cat /etc/os-release
+      - name: Check OS
+        run: cat /etc/os-release
