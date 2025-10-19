@@ -5,3 +5,5 @@ jobs:
     steps:
       - name: Check OS
         run: cat /etc/os-release
+      - name: ls
+        run: ls
