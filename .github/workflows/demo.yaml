@@ -7,4 +7,4 @@ jobs:
       - name: Check OS
         run: cat /etc/os-release
       - name: Check df
-        run: df -h
+        run: pwd
